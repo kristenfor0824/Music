@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>音乐播放器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="./views/css/mui.min.css">
+    <!--App自定义的css-->
+    <link rel="stylesheet" type="text/css" href="./views/css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="./views/css/comment.css"/>
+    <link rel="stylesheet" type="text/css" href="./views/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="./views/css/icons-extra.css"/>
+</head>
+<body>
+
+<header class="song_top">
+    <span class="mui-icon mui-icon-arrowleft on_sp" style="margin-left:1px;"></span>
+    <span style="font-size: 18px;">试听歌单</span>
+    <span class="mui-icon mui-icon-more"></span>
+    <span class="mui-icon-extra mui-icon-extra-custom"></span>
+</header>
+
+<!--音乐广告图片star-->
+<div class="mui-card">
+    <div class="mui-card-header mui-card-media" style="height:40vw;background-image:url(./views/images/m9.jpg)"></div>
+
+    <div class="mui-card-footer" style="background: #000">
+        <a class="mui-card-link" style="color:#fff">
+            <span class="mui-icon mui-icon-plus" style="color:#fff;"></span>
+            <span>187</span>
+        </a>
+        <a class="mui-card-link" style="color:#fff">
+            <span class="mui-icon mui-icon-chatboxes" style="color:#fff;"></span>
+            <span>18</span>
+        </a>
+        <a class="mui-card-link" style="color:#fff">
+            <span class="mui-icon mui-icon-redo" style="color:#fff"></span>
+            <span>17</span>
+        </a>
+        <a class="mui-card-link" style="color:#fff">
+            <span class="mui-icon mui-icon-pulldown" style="color:#fff"></span>
+            <span>下载</span>
+        </a>
+    </div>
+</div>
+<!--音乐广告图片end-->
+
+<!--音乐列表star-->
+<div class="title">
+    <span class="mui-icon-extra mui-icon-extra-custom" style="color:#000"></span>
+    <span>播放列表<span style="font-size:10px;color:#6F6F6F;margin-left: 10px;">共5首歌</span></span>
+</div>
+<ul class="mui-table-view">
+    <li class="mui-table-view-cell mui-media ">
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m1.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/2.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media ">
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m2.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/5.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media " >
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m3.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/3.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media  " >
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m4.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/4.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media ">
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m1.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/2.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media ">
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m2.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/5.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media " >
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m3.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/3.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media " >
+        <a href="javascript:;" >
+            <img class="mui-media-object mui-pull-left song_p" src="./views/images/m4.jpg" >
+            <p class="mui-media-object mui-pull-right song_p2  " title="播放/暂停" music="./views/music/4.mp3">
+                <span class="music_sp"></span>
+            </p>
+            <div class="mui-media-body box_txt aa">
+                光辉岁月
+                <p class='mui-ellipsis song_p3'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+</ul>
+<audio></audio>
+<!--<audio src="./views/music/5.mp3"></audio>-->
+<!--音乐列表end-->
+
+</body>
+<script src="./views/js/mui.min.js"></script>
+<script src="./views/js/mui.pullToRefresh.js"></script>
+<script src="./views/js/mui.pullToRefresh.material.js"></script>
+<script src="./views/js/jquery-3.2.0.min.js"></script>
+<script src="./views/js/comment.js" ></script>
+<script src="./views/js/song.js" ></script>
+<script>
+    mui.init({
+        swipeBack:true //启用右滑关闭功能
+    });
+
+    $('.on_sp').on('click',function(){
+        window.location.href='http://127.0.0.1/index.html'
+    })
+</script>
+</html>

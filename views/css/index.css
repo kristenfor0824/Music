@@ -1,0 +1,214 @@
+
+.header{
+	width: 100%;
+	height: 52px;
+	box-shadow: 2px 1px 2px #000;
+	background: #34B44B;
+    line-height: 50px;
+	border-radius:5px!important;
+	text-align:center;
+}
+.header>span{color: #fff;}
+.header>input{
+	border-radius:5px!important;
+	width: 80%!important;
+	text-align: center;
+	font-size: 14px;
+}
+.my_music{font-size: 18px;}
+
+.mui-control-content{/*高度自定义*/
+	/*min-height: 1600px!important;*/
+}
+.round-ico{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+	}
+.round-ico>li{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+	color: #000000!important;
+	font-size: 10px;
+}
+.round-ico a{
+	margin: 3px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-clip: padding-box;
+    color: #000000!important;
+}
+.round-ico p{
+	font-size: 10px!important;
+}
+
+.column_sp{/*专栏*/
+	padding: 0 5px; 
+	border:1px solid #BFBFBF;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.class_ul>li{/*热门分类*/
+	line-height: 40px;
+	border-bottom: 1px solid #F7F7F7;
+}
+.class_ul>li:nth-child(2n-1){
+	border-right: 1px solid #F7F7F7;
+}
+.box_top{
+
+}
+.hot_ul{/*热搜榜*/
+	border:1px solid rgba(0,0,0,0.1);
+	/*box-shadow:2px 2px 2px #000!important;*/
+	text-align: left;
+	text-indent: -33px!important;
+	font-size: 0;
+}
+.hot_ul>li{/*热搜榜*/
+	list-style-type:none;
+	font-family: Arial;
+	font-size: 14px;
+	/*text-align: left;*/
+}
+.hot_ul>li:first-child {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight:bold;
+}
+
+.mui-segmented-control .mui-control-item.mui-active{/*顶部选项卡*/
+	background-color: #fff!important;
+	color:#34B44B!important;
+}
+
+.mui-segmented-control .mui-control-item{/*顶部选项卡*/
+	color:#000!important;
+	border: 0!important;
+}
+
+.mui-segmented-control{/*顶部选项卡*/
+	border: 0!important;
+}
+
+.mui-bar-tab .mui-tab-item.mui-active{/*底部选项卡*/
+	color:#34B44B!important;
+}
+.span.mui-icon{/*底部选项卡*/
+	color:#34B44B!important;
+}
+
+.ico_li{
+	width: 25%;
+	font-size: 12px!important;
+}
+.ico_sp{/*签到、分类、推荐、排行*/
+	color:#34B44B!important;
+	margin-left: 5px!important;
+}
+.title_sp{
+	padding: 2px 8px;
+	border:1px solid #34B44B;
+	border-radius: 2px;
+	color:black;
+	font-family: cursive;
+}
+.c_sp{
+	color:#34b44b;
+	font-size: 14px!important;
+}
+.c_sp+span{
+	font-size: 12px!important;
+}
+
+.song_top{
+	width: 100%;
+	height: 52px;
+	box-shadow: 2px 1px 2px #000;
+	background: #34B44B;
+	line-height: 50px;
+	text-align: center;
+	border-radius:5px!important;
+	position: relative;
+}
+.song_top>span:first-child{
+	color:#fff;
+	font-size:26px;
+	position: absolute;
+	left: 5px;
+	top:15px;
+
+}
+.song_top>span:nth-child(2){
+	color:#fff;
+	font-size:26px;
+	margin: 0 auto;
+	text-indent: 50%;
+}
+.song_top>span:nth-child(3){
+	color:#fff;
+	font-size:26px;
+	position: absolute;
+	right: 35px;
+	top:15px;
+}
+.song_top>span:nth-child(4){
+	color:#fff;
+	font-size:26px;
+	position: absolute;
+	right: 5px;
+	top:15px;
+}
+.song_p{/*播放列表的p标签1*/
+	text-indent: -5px!important;
+	font-size: 16px;
+	border:1px solid #34B44B;
+	border-radius: 50%;
+}
+.song_p2{/*播放列表的p标签2*/
+	text-indent: 5px!important;
+}
+.box_txt{font-size: 12px;}
+.song_p3{
+	font-size: 10px;
+	text-indent: 8px!important;
+}
+.music_sp{
+	background-color: #ccc;
+	padding: 4px  12px;
+	/*border:1px solid red;*/
+	border-radius: 50%;
+	background-image:url(../images/play.png);
+	background-size: 100% 100%;
+}
+
+@keyframes change {
+	from { transform: rotate(0deg)  }
+	to {  transform: rotate(360deg)  }
+}
+.col_sp{/*专栏*/
+	padding: 0 6px;
+	border:1px solid #ccc;
+	font-size: 12px;
+}
+.col_p{
+	font-size: 12px;
+	font-family: cursive;
+	margin-left: -20px;
+}
+.mui-media-body{
+	font-size: 12px;
+	font-family: cursive;
+}
+.img_a{
+	border-radius: 50%;
+	border:1px solid #34B44B;
+}
